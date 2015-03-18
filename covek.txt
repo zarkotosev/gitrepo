@@ -2,12 +2,12 @@ class Covek {
 private String ime;
 private String prezime;
 private int godini;
-private int brIndeks;
-public Covek(String ime,String prezime,int godini,int brIndeks) {
+private int plata;
+public Covek(String ime,String prezime,int godini,int plata) {
 this.ime=ime;
 this.prezime=prezime;
 this.godini=godini;
-this.brIndeks=brIndeks;
+this.plata=plata;
 }
 public String getIme(){
 return ime; 
@@ -27,9 +27,9 @@ return godini;
 public void setGodini(int godini){
 this.godini=godini;
 }
-public int getBrIndeks(){
-return brIndeks;
+public int getPlata(){
+return plata;
 }
-public void setGodini(int brIndeks){
-this.brIndeks=brIndeks;
+public void setPlata(int plata){
+this.plata=plata;
 }
